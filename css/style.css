@@ -5,16 +5,18 @@ header{
   width: 100%;
   height: 50px;
   background-color: white;
-  padding: 30px 4% 10px;
+  padding: 30px 10px;
   position: fixed;
   top:0
   align-items: center;
   display: flex;
+  justify-content: flex-end
 }
 
 .top_ttl{
   color: navy;
   font-size: 20px;
+  margin-left: 40px;
 }
 
 .nav{
@@ -47,14 +49,12 @@ header{
 font-size: 50px;
 position: absolute;
 top: 90%;
-z-index: 1;
 }
 
 .main_img img{
   width: 50%;
   position: absolute;
   right: 0px;
-  z-index: 1;
 }
 
 .main_line{
@@ -64,5 +64,5 @@ z-index: 1;
   background-color: navy;
   position: absolute;
   top: 100%;
-  z-index: auto;
+  z-index: -1;
 }
