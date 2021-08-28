@@ -1,6 +1,7 @@
 body{
   display: flex;
 }
+
 header{
   width: 100%;
   height: 50px;
@@ -39,27 +40,26 @@ header{
 
 .main{
   width: 100%;
-  height: 300px;
-  margin-top: 150px;
-  display: flex;
+  height: 100px;
+  margin-top: 180px;
   position: relative;
 }
 
 .main_msg{
-font-size: 50px;
-margin-top: 200px;
+  font-size: 50px;
+  margin:200px 0 0 0 ;
 }
 
 .main_img img{
   width: 50%;
   position: absolute;
   right: 0px;
+  top:-30px;
 }
 
 .main_line{
   width: 75%;
   height: 200px;
-  margin-top: 300px;
   margin-right: auto;
   background-color: navy;
   z-index: -1;
