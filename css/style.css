@@ -37,21 +37,24 @@ header{
 
 .main{
   width: 100%;
+  height: 300px;
   margin-top: 150px;
+  display: flex;
   position: relative;
 }
 
 .main_msg{
 font-size: 50px;
-display: block;
 position: absolute;
-top: 60%;
+top: 90%;
+z-index: 1;
 }
 
 .main_img img{
   width: 50%;
-  margin: 0 0 0 auto;
-  display: block;
+  position: absolute;
+  right: 0px;
+  z-index: 1;
 }
 
 .main_line{
@@ -60,5 +63,6 @@ top: 60%;
   margin: 20px 0 20px;
   background-color: navy;
   position: absolute;
-  top:70%
+  top: 100%;
+  z-index: auto;
 }
